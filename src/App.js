@@ -30,7 +30,7 @@ function App() {
     <div style={{height: '100vh', width: '100vw'}}>
     <Canvas 
     style={{background: 'white'}} 
-    camera={{position: [3, 3, 3]}}>
+    camera={{position: [10, 5, 3]}}>
       <ambientLight intensity={1}/>
       <Bulb position={[0, 5, 4]}/>
       <Bulb position={[0, 4, -7]}/>
